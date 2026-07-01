@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ID4FACE</title>
+
+    <script
+      src="https://id4face.eclipsoft.com/dist/id4face@2.4.0.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background: white;
+        font-family: Arial, sans-serif;
+      }
+
+      eclipsoft-id4face {
+        width: 100%;
+        height: 100%;
+      }
+
+      .loading {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        z-index: 9999;
+        font-size: 16px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="loading" class="loading">
+      Inicializando validación biométrica...
+    </div>
+    <eclipsoft-id4face oval limits></eclipsoft-id4face>
+
+    <script>
+      function sendToFlutter(type, payload) {
+        console.log("ID4FACE -> FLUTTER", type, payload);
+
+        const message = JSON.stringify({
+          source: "ID4FACE",
+          type: type,
+          payload: payload,
+        });
+
+        window.parent.postMessage(message, "*");
+      }
+
+      window.addEventListener("load", async () => {
+        try {
+          const params = new URLSearchParams(window.location.search);
+
+          const token = params.get("token");
+          const cedula = params.get("cedula");
+          const dactilar = params.get("dactilar");
+          const env = params.get("env") || "dev";
+
+          console.log("PARAMS", {
+            token: token ? "OK" : "MISSING",
+            cedula,
+            dactilar,
+            env,
+          });
+
+          const id4face = document.querySelector("eclipsoft-id4face");
+
+          id4face.token = token;
+
+          const config = {
+            minMatch: "98",
+            blink: true,
+            faceRecognition: true,
+            faceMask: false,
+            callbackUrl: "",
+            env: env,
+            checkId: {
+              id: cedula,
+              dactilar: dactilar,
+            },
+          };
+
+          id4face.addEventListener("ready", (event) => {
+            console.log("READY", event.detail);
+
+            document.getElementById("loading").style.display = "none";
+
+            sendToFlutter("ready", event.detail);
+          });
+
+          id4face.addEventListener("result", (event) => {
+            console.log("RESULT", event.detail);
+
+            sendToFlutter("result", event.detail);
+          });
+
+          id4face.addEventListener("failed", (event) => {
+            console.log("FAILED", event.detail);
+
+            sendToFlutter("failed", event.detail);
+          });
+
+          await id4face.load(config);
+
+          console.log("ID4FACE LOADED");
+
+          id4face.start();
+        } catch (error) {
+          console.error(error);
+
+          sendToFlutter("error", {
+            message: error?.message || error?.toString() || "Unknown error",
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

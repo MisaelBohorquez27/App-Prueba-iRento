@@ -1,0 +1,1081 @@
+{ 
+"AM": [
+ {
+    "idType": "passport",
+    "example": "AB1234567",
+    "pattern": "^[A-Z]{2}\\d{7}$"
+  },
+  {
+    "idType": "dni",
+    "example": "1234567890",
+    "pattern": "^\\d{10}$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "AM123456",
+    "pattern": "^[A-Z]{2}\\d{6}$"
+  }
+],
+
+  "AR": [
+    {
+      "idType": "passport",
+      "example": "ABC123456",
+      "pattern": "^[A-Z]{3}\\d{6}$"
+    },
+    {
+      "idType": "dni",
+      "example": "12345678",
+      "pattern": "^\\d{7,8}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "12345678",
+      "pattern": "^\\d{7,9}$"
+    }
+  ],
+
+
+"AT": [
+  {
+    "idType": "passport",
+    "example": "A1234567",
+    "pattern": "^[A-Z]\\d{7}$"
+  },
+  {
+    "idType": "dni",
+    "example": "123456789",
+    "pattern": "^\\d{9}$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "F12345678",
+    "pattern": "^[A-Z]\\d{8}$"
+  }
+],
+
+"AU": [
+  {
+    "idType": "passport",
+    "example": "N1234567",
+    "pattern": "^[A-Z]\\d{7}$"
+  },
+  {
+    "idType": "dni",
+    "example": "123456789",
+    "pattern": "^\\d{8,9}$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "12345678",
+    "pattern": "^[0-9A-Z]{6,10}$"
+  }
+],
+"AZ": [
+  {
+    "idType": "passport",
+    "example": "C12345678",
+    "pattern": "^[A-Z]\\d{8}$"
+  },
+  {
+    "idType": "dni",
+    "example": "AA1234567",
+    "pattern": "^[A-Z]{2}\\d{7}$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "AZ12345678",
+    "pattern": "^[A-Z]{2}\\d{8}$"
+  }
+],
+
+"BE": [
+  {
+    "idType": "passport",
+    "example": "AB123456",
+    "pattern": "^[A-Z]{2}\\d{6}$"
+  },
+  {
+    "idType": "dni",
+    "example": "123-4567890-12",
+    "pattern": "^\\d{3}-\\d{7}-\\d{2}$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "BE123456789",
+    "pattern": "^[A-Z]{2}\\d{9}$"
+  }
+],
+
+"BG": [
+  {
+    "idType": "passport",
+    "example": "123456789",
+    "pattern": "^\\d{9}$"
+  },
+  {
+    "idType": "dni",
+    "example": "6101057509",
+    "pattern": "^\\d{10}$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "BG123456789",
+    "pattern": "^[A-Z]{2}\\d{9}$"
+  }
+], 
+
+  "BR": [
+    {
+      "idType": "passport",
+      "example": "AB123456",
+      "pattern": "^[A-Z]{2}\\d{6}$"
+    },
+    {
+      "idType": "dni",
+      "example": "12345678901",
+      "pattern": "^\\d{11}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "12345678901",
+      "pattern": "^\\d{11}$"
+    }
+  ],
+
+
+"BY": [
+  {
+    "idType": "passport",
+    "example": "AB1234567",
+    "pattern": "^[A-Z]{2}\\d{7}$"
+  },
+  {
+    "idType": "dni",
+    "example": "1234567A001PB1",
+    "pattern": "^[A-Z0-9]{14}$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "AB1234567",
+    "pattern": "^[A-Z]{2}\\d{7}$"
+  }
+],
+
+"CA": [
+  {
+    "idType": "passport",
+    "example": "AB123456",
+    "pattern": "^(?:[A-Z]{2}\\d{6}|[A-Z]\\d{6}[A-Z]{2})$"
+  },
+  {
+    "idType": "dni",
+    "example": "123456789",
+    "pattern": "^\\d{9}$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "A1234-56789-01234",
+    "pattern": "^[A-Z0-9-]{5,20}$"
+  }
+],
+
+"CH": [
+  {
+    "idType": "passport",
+    "example": "A1234567",
+    "pattern": "^[A-Z]\\d{7}$"
+  },
+  {
+    "idType": "dni",
+    "example": "7561234567897",
+    "pattern": "^\\d{13}$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "CH123456789",
+    "pattern": "^[A-Z]{2}\\d{9}$"
+  }
+],
+
+"CN": [
+  {
+    "idType": "passport",
+    "example": "G12345678",
+    "pattern": "^(G\\d{8}|E(?![IO])[A-Z0-9]\\d{7})$"
+  },
+  {
+    "idType": "dni",
+    "example": "110101199003074512",
+    "pattern": "^\\d{17}[\\dX]$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "110101199003074512",
+    "pattern": "^\\d{17}[\\dX]$"
+  }
+],
+
+"CY": [
+  {
+    "idType": "passport",
+    "example": "A12345678",
+    "pattern": "^[A-Z](\\d{6}|\\d{8})$"
+  },
+  {
+    "idType": "dni",
+    "example": "123456",
+    "pattern": "^\\d{6}$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "A123456",
+    "pattern": "^[A-Z0-9]{6,10}$"
+  }
+],
+
+"CZ": [
+  {
+    "idType": "passport",
+    "example": "12345678",
+    "pattern": "^\\d{8}$"
+  },
+  {
+    "idType": "dni",
+    "example": "8501011234",
+    "pattern": "^\\d{9,10}$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "123456789",
+    "pattern": "^\\d{8,10}$"
+  }
+]
+, 
+  "DE": [
+    {
+      "idType": "passport",
+      "example": "C12X4567Z",
+      "pattern": "^[CFGHJKLMNPRTVWXYZ0-9]{9}$"
+    },
+    {
+      "idType": "dni",
+      "example": "L01X00T47",
+      "pattern": "^[A-Z0-9]{9,10}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "B072RRE2G",
+      "pattern": "^[A-Z0-9]{8,11}$"
+    }
+  ],
+
+ "DK": [
+    {
+      "idType": "passport",
+      "example": "123456789",
+      "pattern": "^\\d{9}$"
+    },
+    {
+      "idType": "dni",
+      "example": "1205631234",
+      "pattern": "^\\d{10}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "12345678",
+      "pattern": "^\\d{8}$"
+    }
+  ],
+
+  "DZ": [
+    {
+      "idType": "passport",
+      "example": "123456789",
+      "pattern": "^\\d{9}$"
+    },
+    {
+      "idType": "dni",
+      "example": "123456789012345678",
+      "pattern": "^\\d{18}$"
+    }
+  ],
+"EC": [
+  {
+    "idType": "passport",
+    "example": "A12345678",
+    "pattern": "^[A-Z]{1,2}\\d{6,8}$"
+  },
+  {
+    "idType": "dni",
+    "example": "1712345678",
+    "pattern": "^\\d{10}$"
+  },
+  {
+    "idType": "driverLicense",
+    "example": "1712345678",
+    "pattern": "^\\d{10}$"
+  }
+],
+
+
+
+  "EE": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^([A-Z]\\d{7}|[A-Z]{2}\\d{7})$"
+    },
+    {
+      "idType": "dni",
+      "example": "38501010001",
+      "pattern": "^\\d{11}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "12345678901",
+      "pattern": "^\\d{11}$"
+    }
+  ],
+
+  "ES": [
+    {
+      "idType": "passport",
+      "example": "AA123456",
+      "pattern": "^[A-Z0-9]{2}([A-Z0-9]?)\\d{6}$"
+    },
+    {
+      "idType": "dni",
+      "example": "12345678Z",
+      "pattern": "^\\d{8}[A-Z]$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "12345678",
+      "pattern": "^\\d{8}$"
+    }
+  ],
+
+  "FI": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^[A-Z]{2}\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "131052-308T",
+      "pattern": "^\\d{6}[-A+]\\d{3}[0-9A-Z]$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "1234567890",
+      "pattern": "^\\d{8,10}$"
+    }
+  ],
+
+  
+  "FR": [
+    {
+      "idType": "passport",
+      "example": "12AB12345",
+      "pattern": "^\\d{2}[A-Z]{2}\\d{5}$"
+    },
+    {
+      "idType": "dni",
+      "example": "123456789012",
+      "pattern": "^\\d{12}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "123456789012",
+      "pattern": "^\\d{12}$"
+    }
+  ],
+
+  "GB": [
+    {
+      "idType": "passport",
+      "example": "123456789",
+      "pattern": "^\\d{9}$"
+    },
+    {
+      "idType": "dni",
+      "example": "QQ123456C",
+      "pattern": "^[A-Z]{2}\\d{6}[A-Z]$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "MORGA657054SM9IJ",
+      "pattern": "^[A-Z0-9]{16}$"
+    }
+  ],
+
+  "GR": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^[A-Z]{2}\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "AB123456",
+      "pattern": "^[A-Z]{2}\\d{6}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "123456789",
+      "pattern": "^\\d{9}$"
+    }
+  ],
+
+  "HR": [
+    {
+      "idType": "passport",
+      "example": "123456789",
+      "pattern": "^\\d{9}$"
+    },
+    {
+      "idType": "dni",
+      "example": "12345678901",
+      "pattern": "^\\d{11}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "123456789",
+      "pattern": "^\\d{9}$"
+    }
+  ],
+
+  "HU": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^[A-Z]{2}(\\d{6}|\\d{7})$"
+    },
+    {
+      "idType": "dni",
+      "example": "123456AA",
+      "pattern": "^\\d{6}[A-Z]{2}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "ABC123456",
+      "pattern": "^[A-Z]{3}\\d{6}$"
+    }
+  ],
+
+    "IE": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^[A-Z0-9]{2}\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "1234567T",
+      "pattern": "^\\d{7}[A-Z]{1,2}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "123456789",
+      "pattern": "^[0-9A-Z]{8,10}$"
+    }
+  ],
+   
+
+  "IN": [
+    {
+      "idType": "passport",
+      "example": "A1234567",
+      "pattern": "^[A-Z]-?\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "123412341234",
+      "pattern": "^\\d{12}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "DL0420110012345",
+      "pattern": "^[A-Z]{2}\\d{13}$"
+    }
+  ],
+
+  "ID": [
+    {
+      "idType": "passport",
+      "example": "A1234567",
+      "pattern": "^[A-C]\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "3175090909090001",
+      "pattern": "^\\d{16}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "317509090909",
+      "pattern": "^\\d{12}$"
+    }
+  ],
+
+  "IR": [
+    {
+      "idType": "passport",
+      "example": "A12345678",
+      "pattern": "^[A-Z]\\d{8}$"
+    },
+    {
+      "idType": "dni",
+      "example": "1234567890",
+      "pattern": "^\\d{10}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "1234567890",
+      "pattern": "^\\d{10}$"
+    }
+  ],
+
+  "IS": [
+    {
+      "idType": "passport",
+      "example": "A1234567",
+      "pattern": "^A\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "1201743399",
+      "pattern": "^\\d{10}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "1234567890",
+      "pattern": "^\\d{10}$"
+    }
+  ],
+
+  "IT": [
+    {
+      "idType": "passport",
+      "example": "AA1234567",
+      "pattern": "^[A-Z0-9]{2}\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "CA12345AA",
+      "pattern": "^[A-Z]{2}\\d{5}[A-Z]{2}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "MI1234567A",
+      "pattern": "^[A-Z]{2}\\d{7}[A-Z]$"
+    }
+  ],
+
+  "JM": [
+    {
+      "idType": "passport",
+      "example": "A1234567",
+      "pattern": "^[A]\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "123456789",
+      "pattern": "^\\d{9}$"
+    }
+  ],
+
+  "JP": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^[A-Z]{2}\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "123456789012",
+      "pattern": "^\\d{12}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "123456789012",
+      "pattern": "^\\d{12}$"
+    }
+  ], 
+  
+
+  "KR": [
+    {
+      "idType": "passport",
+      "example": "M12345678",
+      "pattern": "^[MS]\\d{8}$"
+    },
+    {
+      "idType": "dni",
+      "example": "900101-1234567",
+      "pattern": "^\\d{6}-\\d{7}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "11-01-123456-01",
+      "pattern": "^\\d{2}-\\d{2}-\\d{6}-\\d{2}$"
+    }
+  ],
+ 
+
+  "KZ": [
+    {
+      "idType": "passport",
+      "example": "A1234567",
+      "pattern": "^[A-Z]\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "123456789012",
+      "pattern": "^\\d{12}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "123456789",
+      "pattern": "^\\d{9}$"
+    }
+  ],
+
+  "LI": [
+    {
+      "idType": "passport",
+      "example": "A12345",
+      "pattern": "^[A-Z]\\d{5}$"
+    },
+    {
+      "idType": "dni",
+      "example": "123456",
+      "pattern": "^\\d{6}$"
+    }
+  ],
+
+  "LT": [
+    {
+      "idType": "passport",
+      "example": "AB123456",
+      "pattern": "^[A-Z0-9]{8}$"
+    },
+    {
+      "idType": "dni",
+      "example": "12345678901",
+      "pattern": "^\\d{11}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "LT1234567",
+      "pattern": "^[A-Z]{2}\\d{7}$"
+    }
+  ],
+
+  "LU": [
+    {
+      "idType": "passport",
+      "example": "AB123456",
+      "pattern": "^[A-Z0-9]{8}$"
+    },
+    {
+      "idType": "dni",
+      "example": "1234567890123",
+      "pattern": "^\\d{13}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "L123456789",
+      "pattern": "^[A-Z]\\d{9}$"
+    }
+  ],
+
+  "LV": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^[A-Z0-9]{2}\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "010101-12345",
+      "pattern": "^\\d{6}-\\d{5}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "LV12345678",
+      "pattern": "^[A-Z]{2}\\d{8}$"
+    }
+  ],
+
+  "LY": [
+    {
+      "idType": "passport",
+      "example": "AB123456",
+      "pattern": "^[A-Z0-9]{8}$"
+    },
+    {
+      "idType": "dni",
+      "example": "123456789012",
+      "pattern": "^\\d{12}$"
+    }
+  ],
+
+  "MT": [
+    {
+      "idType": "passport",
+      "example": "1234567",
+      "pattern": "^\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "1234567M",
+      "pattern": "^\\d{7}[A-Z]$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "M1234567",
+      "pattern": "^[A-Z]\\d{7}$"
+    }
+  ]
+,
+  "MZ": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^([A-Z]{2}\\d{7})|(\\d{2}[A-Z]{2}\\d{5})$"
+    },
+    {
+      "idType": "dni",
+      "example": "110100000000A",
+      "pattern": "^\\d{12}[A-Z]$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "MZ12345678",
+      "pattern": "^[A-Z]{2}\\d{8}$"
+    }
+  ],
+
+  "MY": [
+    {
+      "idType": "passport",
+      "example": "A12345678",
+      "pattern": "^[AHK]\\d{8}$"
+    },
+    {
+      "idType": "dni",
+      "example": "900101101234",
+      "pattern": "^\\d{12}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "D1234567",
+      "pattern": "^[A-Z]\\d{7}$"
+    }
+  ],
+
+  "MX": [
+    {
+      "idType": "passport",
+      "example": "A12345678",
+      "pattern": "^[A-Z]\\d{8}$"
+    },
+    {
+      "idType": "dni",
+      "example": "ABCDEF12G34",
+      "pattern": "^[A-Z]{6}\\d{2}[A-Z]\\d{2}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "M1234567890",
+      "pattern": "^[A-Z0-9]{8,18}$"
+    }
+  ],
+
+  "NL": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^[A-Z]{2}[A-Z0-9]{6}\\d$"
+    },
+    {
+      "idType": "dni",
+      "example": "ABC123456",
+      "pattern": "^[A-Z]{3}\\d{6}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "1234567890",
+      "pattern": "^\\d{10}$"
+    }
+  ],
+
+  "NZ": [
+    {
+      "idType": "passport",
+      "example": "LA123456",
+      "pattern": "^([L]([A]|[D]|[F]|[H])|[E]([A]|[P])|[N])\\d{6}$"
+    },
+    {
+      "idType": "dni",
+      "example": "123456789",
+      "pattern": "^\\d{8,9}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "AA123456",
+      "pattern": "^[A-Z]{2}\\d{6}$"
+    }
+  ],
+
+  "PH": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^([A-Z](\\d{6}|\\d{7}[A-Z]))|([A-Z]{2}(\\d{6}|\\d{7}))$"
+    },
+    {
+      "idType": "dni",
+      "example": "1234-5678901-2",
+      "pattern": "^\\d{4}-\\d{7}-\\d$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "N01-23-456789",
+      "pattern": "^[A-Z]\\d{2}-\\d{2}-\\d{6}$"
+    }
+  ],
+
+  "PK": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^[A-Z]{2}\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "12345-1234567-1",
+      "pattern": "^\\d{5}-\\d{7}-\\d$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "PK123456789",
+      "pattern": "^[A-Z]{2}\\d{9}$"
+    }
+  ],
+
+  "PL": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^[A-Z]{2}\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "ABA123456",
+      "pattern": "^[A-Z]{3}\\d{6}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "PL1234567",
+      "pattern": "^[A-Z]{2}\\d{7}$"
+    }
+  ],
+
+  "PT": [
+    {
+      "idType": "passport",
+      "example": "A123456",
+      "pattern": "^[A-Z]\\d{6}$"
+    },
+    {
+      "idType": "dni",
+      "example": "12345678",
+      "pattern": "^\\d{8}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "P-1234567",
+      "pattern": "^[A-Z]-\\d{7}$"
+    }
+  ],
+
+  "RO": [
+    {
+      "idType": "passport",
+      "example": "123456789",
+      "pattern": "^\\d{8,9}$"
+    },
+    {
+      "idType": "dni",
+      "example": "1234567890123",
+      "pattern": "^\\d{13}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "RO12345678",
+      "pattern": "^[A-Z]{2}\\d{8}$"
+    }
+  ],
+
+  "RU": [
+    {
+      "idType": "passport",
+      "example": "123456789",
+      "pattern": "^\\d{9}$"
+    },
+    {
+      "idType": "dni",
+      "example": "1234 567890",
+      "pattern": "^\\d{4}\\s\\d{6}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "7700123456",
+      "pattern": "^\\d{10}$"
+    }
+  ],
+
+  "SE": [
+    {
+      "idType": "passport",
+      "example": "12345678",
+      "pattern": "^\\d{8}$"
+    },
+    {
+      "idType": "dni",
+      "example": "19900101-1234",
+      "pattern": "^\\d{8}-\\d{4}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "1234567890",
+      "pattern": "^\\d{10}$"
+    }
+  ],
+
+  "SL": [
+    {
+      "idType": "passport",
+      "example": "PA1234567",
+      "pattern": "^P[A-Z]\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "123456789",
+      "pattern": "^\\d{9}$"
+    }
+  ],
+
+  "SK": [
+    {
+      "idType": "passport",
+      "example": "A1234567",
+      "pattern": "^[0-9A-Z]\\d{7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "8501011234",
+      "pattern": "^\\d{9,10}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "SK1234567",
+      "pattern": "^[A-Z]{2}\\d{7}$"
+    }
+  ],
+    "TH": [
+    {
+      "idType": "passport",
+      "example": "AB1234567",
+      "pattern": "^[A-Z]{1,2}\\d{6,7}$"
+    },
+    {
+      "idType": "dni",
+      "example": "1234567890123",
+      "pattern": "^\\d{13}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "12345678",
+      "pattern": "^\\d{8}$"
+    }
+  ],
+
+  "TR": [
+    {
+      "idType": "passport",
+      "example": "A12345678",
+      "pattern": "^[A-Z]\\d{8}$"
+    },
+    {
+      "idType": "dni",
+      "example": "12345678901",
+      "pattern": "^\\d{11}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "TR1234567890",
+      "pattern": "^[A-Z]{2}\\d{10}$"
+    }
+  ],
+
+  "UA": [
+    {
+      "idType": "passport",
+      "example": "AB123456",
+      "pattern": "^[A-Z]{2}\\d{6}$"
+    },
+    {
+      "idType": "dni",
+      "example": "1234567890",
+      "pattern": "^\\d{10}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "ABC123456",
+      "pattern": "^[A-Z]{3}\\d{6}$"
+    }
+  ],
+
+  "US": [
+    {
+      "idType": "passport",
+      "example": "123456789",
+      "pattern": "^(\\d{9}|[A-Z]\\d{8})$"
+    }, 
+    {
+      "idType": "dni",
+      "example": "123456789",
+      "pattern": "^\\d{9}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "D1234567",
+      "pattern": "^[A-Z]\\d{7}$"
+    }
+  ],
+
+  "ZA": [
+    {
+      "idType": "passport",
+      "example": "T12345678",
+      "pattern": "^[TAMD]\\d{8}$"
+    },
+    {
+      "idType": "dni",
+      "example": "9001015009087",
+      "pattern": "^\\d{13}$"
+    },
+    {
+      "idType": "driverLicense",
+      "example": "1234567890123",
+      "pattern": "^\\d{13}$"
+    }
+  ]
+
+
+}
