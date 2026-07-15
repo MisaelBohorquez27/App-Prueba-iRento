@@ -170282,7 +170282,7 @@ p=$.c
 r.push(m.Yk(l,"HOA fee","For homeowners association services",q,B.aqV,(p==null?$.c=B.l:p).l(0,n,s).qQ))
 r.push(new A.j(n,A.i(l,1.2),n,n))
 q=$.c
-r.push(m.Fv(l,"Maintenance fee","For property maintenance and upkeep",(q==null?$.c=B.l:q).l(0,n,s).bw,B.OB))
+r.push(m.Fv(l,"Cuota mensual de expensas de servicios","For property maintenance and upkeep",(q==null?$.c=B.l:q).l(0,n,s).bw,B.OB))
 m=A.l(r,B.m,n,B.h,B.f,0,B.o)}else m=A.rX()
 return m},
 $S:43}
