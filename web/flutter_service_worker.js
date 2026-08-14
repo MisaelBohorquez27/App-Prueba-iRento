@@ -140,7 +140,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "ea911ed08fa0fa5835b85814136b0736
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "3e0930469bae12c98bfa16360df61189",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "2ab22d9cf1041173d3d12e6da062a2a4",
+"flutter_bootstrap.js": "5cee5abbca94d0d78321c5e6262e8e1b",
 "icons/amex.svg": "73a76e963ee1289c158c1790b451960c",
 "icons/applepay.svg": "b737182d8ce8513da7c5f4b0b523ae44",
 "icons/discover.svg": "b5c9afa8e9380b9b311bddc8ceb464c5",
@@ -262,7 +262,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "ea911ed08fa0fa5835b85814136b0736
 "images/Viceroy/UNIDADES/ESTUDIOS/estudio.png": "f958e0ee792d06a5164ea6badc861dca",
 "index.html": "232b2c71693ca665839dac3cf873f228",
 "/": "232b2c71693ca665839dac3cf873f228",
-"main.dart.js": "9cfc52bcfaea128da45deb2273ac7fb5",
+"main.dart.js": "7ceba8c20169acd05e56d2e0735b719f",
 "manifest.json": "cd1bf5d7f078f23665b0349263b73331",
 "version.json": "7cac1ad24c61678a0a52df0da901933d"};
 // The application shell files that are downloaded before a service worker can
